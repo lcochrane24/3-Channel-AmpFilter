@@ -1,0 +1,109 @@
+<html><head><title>Amp/Filter Board</title>
+</head>
+<body BACKGROUND="backgnd.jpg">
+<center><h1>Seismic Amplifier/Filter Board</h1>
+<b>Last Updated: 3/02/21</b>
+<p><span style="background-color: #FFFF00">Note: This board is no longer in
+production&nbsp;</span></p>
+<p>Here is the <a href="/info/eqampsch.zip">schematic</a> and <a href="/info/eqamppcb.zip">artwork
+in Gerber format</a> to build your own board. This files are also available on
+GitHub <a href="https://github.com/lcochrane24/3-Channel-AmpFilter">here</a>.&nbsp;<br><br>
+<img SRC="eqampnew_small.jpg" width="400" height="522"><br>
+<a HREF="/onlinedocs/eqampdoc.html"><font size="4"><b>Online Documentation</b></font></a></center>
+</p>
+<h2>Specifications:</h2>
+<blockquote>
+<pre><b>Number of channels:        1, 2 or 3 Channels
+Gain:                      ~170 to ~6,000 - Set by Trim Pot and Jumper
+Frequency Response:        0.02Hz (50 Sec.) to 10Hz for Lehman Type Sensors or
+                           0.05Hz (20 Sec.) to 20Hz for Geophone Sensors  (<a href="#Note1">Note 1</a>)
+Lowpass Filter Type:       8 Pole Butterworth Filter
+Highpass Filter Type:      1 Pole Butterworth Filter
+Input Connectors:          RCA jacks (Stereo Equipment Type) or
+                           .156 Inch 2-Pin Molex Connector or
+                           Terminal Screw Block
+Input Impedance:           ~10K  (<a href="#Note2">Note 2</a>)
+Output:                    +- 10 volts into a 600 ohm load 
+Power Requirements:        16 to 28 VDC or 12 to 18 VAC ~150MA Power Supply
+Power Connector:           2.1mm X 5.5mm Male Jack on the Board
+Board Dimensions:          7.750 x 5.750 Inches or 19.655 x 14.605 Centimeters
+</b></pre>
+</blockquote>
+<hr>
+<h2>Description:</h2>
+<blockquote>
+<p>
+Each channel has a very low noise front end op-amp, a 10Hz or 20 Hz (Note 1) 8 pole
+lowpass
+filter, 50 or 20&nbsp; second 1 pole highpass filter, and an output op-amp that can drive up
+to 100 feet of coax cable and a 600 ohm load.&nbsp;</p>
+</blockquote>
+<hr>
+<b>
+<h2 align="left">Frequency Response Plot:</h2>
+<blockquote>
+  <p align="left">The plot below shows the frequency response of the
+  PSN-ADC-EQAMP with the standard Lehman and Geophone lowpass and highpass
+  filter configurations.</p>
+</blockquote>
+<ul>
+<p align="center"><img border="0" src="eqampfreq.gif" width="808" height="502"></p>
+<hr>
+</ul>
+<h2>Power Supply Requirements:</h2>
+<ul>
+<p>The power connector on the board is a standard 2.1mm X 5.5mm male jack. The
+board can be powered with either AC or DC voltages. The DC input range is 16
+volts to 30 volts and the AC range is 11 to 18 VAC. The amount of current needed
+to supply the board depends on the input voltage and number of channels:&nbsp;</p>
+<pre>               Volts DC    Current    Power in Watts
+Single Channel:   16        64ma           1.02
+                  20        54ma           1.08
+                  24        48ma           1.15
+                  28        44ma           1.23
+Two Channels:     16       106ma           1.70
+                  20        92ma           1.84
+                  24        82ma           1.97
+                  28        76ma           2.13
+Three Channels:   16       144ma           2.30
+                  20       126ma           2.52
+                  24       114ma           2.74
+                  28       106ma           2.97</pre>
+<hr>
+</ul>
+<h2><b>Input / Output Connectors:</b></h2>
+<blockquote>
+  <p>The input and output connector for each channel can be one of the
+  following. Please specify when ordering.&nbsp;</p>
+  <ul>
+    <li><a href="conrca.jpg">RCA Jack</a></li>
+    <li><a href="con156.jpg">.156 Inch 2-Pin Molex</a> connector with mating connector block and pins</li>
+    <li><a href="conterm.jpg">Terminal Block Screws</a> </li>
+  </ul>
+  <p align="left">If the board is placed in the option plastic box you will need
+  to use either the .156 Molex or terminal block screw input connector option.
+  There is not enough room in the box to use the RCA jack and mating plug.</p>
+</blockquote>
+<hr>
+<h2>Notes:</h2>
+<ul>
+<p><a name="Note1">1: Other lowpass and highpass cutoff frequencies available.</a><BR>
+<a name="Note2">2: Other input impedances available.</a>
+<hr>
+</ul>
+<h2>Additional Information:</h2>
+<ul>
+<li><a href="serialatod.html">PSN-ADC-SERIAL / PSN-ADC-USB </a>16-Bit Analog to Digital
+  Converter Board
+<li><a href="serialamp.html">PSN-ADC-EQAMP</a> One to Four Channel Amplifier /
+  Filter Board for the 16-Bit A/D Board
+<li><a HREF="coilmag.html">Pickup Coil and Magnet</a> for Lehman Sensors
+<li><a href="/geophone/index.html">Used Geophones</a> for sale
+</ul>
+<hr>
+<center>[ <a HREF="index.html#Equipment">Equipment</a> ] 
+[ <a HREF="index.html">Home</a> ]
+<p>
+<a HREF="http://www.seismicnet.com/contact.html">
+Larry Cochrane - www.seismicnet.com/contact.html</a>
+</center></body></html>
